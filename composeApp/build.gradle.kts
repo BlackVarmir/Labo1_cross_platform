@@ -67,11 +67,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.labo1_cross_platform"
+    namespace = "com.example.labs"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.example.labo1_cross_platform"
+        applicationId = "com.example.labs"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -99,11 +99,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "com.example.labo1_cross_platform.MainKt"
+        mainClass = "com.example.labs.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "com.example.labo1_cross_platform"
+            packageName = "com.example.labs"
             packageVersion = "1.0.0"
         }
     }

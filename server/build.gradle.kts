@@ -4,10 +4,10 @@ plugins {
     application
 }
 
-group = "com.example.labo1_cross_platform"
+group = "com.example.labs"
 version = "1.0.0"
 application {
-    mainClass.set("com.example.labo1_cross_platform.ApplicationKt")
+    mainClass.set("com.example.labs.ApplicationKt")
     
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

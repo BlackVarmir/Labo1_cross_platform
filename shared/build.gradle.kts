@@ -38,7 +38,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.labo1_cross_platform.shared"
+    namespace = "com.example.labs.shared"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
